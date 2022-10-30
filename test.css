@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color:grey;
+    height: 40px;
+
+}
+
+.navbar{
+   display: flex;
+   justify-content: space-around;
+   list-style: none;
+   font-size: 20px;
+}
+h1{
+    color: black;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+p{
+border: 10px grey solid;
+}
+a{
+    color: black;
+    text-decoration: none;
+    border: 10px grey solid;
+}
+
+a:hover{
+    color: blue;
+    font-size: 30px;
+}
